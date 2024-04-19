@@ -23,12 +23,16 @@ This repository contains files related to the analysis and deployment of the Sup
 ### Models:
 - **best_rf_regressor_model.pkl**: Pickle file containing the trained Random Forest regressor model for sales prediction.
 
+### Others:
+- **super_store_sales.pptx**: The sales data analysis pitch as a power point presentation.
+
 ## Instructions:
 
 - To view the exploratory data analysis, open `analysis/super_store_eda.ipynb` in a Jupyter Notebook environment.
 - To explore the interactive dashboard, open `dashboard/super_store_powerbi.pbix` using Power BI Desktop.
 - The cleaned and raw datasets are available in the `datasets` directory.
 - To deploy the web application, run `deployment/app.py` using a Python interpreter.
+- To view the presentation, open `other/super_store_sales.pptx` in Power Point.
 - Make sure to install the required libraries specified in `requirements.txt` before deploying the application.
 - The trained machine learning model is saved as `models/best_rf_regressor_model.pkl`.
 
