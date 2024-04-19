@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compute Sales</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Sales Prediction Form</h2>
+        <form id="salesPredictionForm" method="post" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity">
+            </div>
+            <div class="form-group">
+                <label for="profit">Profit (€)</label>
+                <input type="text" id="profit" name="profit" >
+            </div>
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category" onchange="updateSubCategories()">
+                    <option value="0">Furniture</option>
+                    <option value="1">Office Supplies</option>
+                    <option value="2">Technology</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="sub_category">Sub-Category</label>
+                <select id="sub_category" name="sub_category"></select>
+            </div>
+            <button type="submit" class="calculate-btn" id="calculateButton" onclick="updatePrediction()"> Calculate Sales </button>
+        </form>
+        <div id="predictionOutput" style="margin-top: 20px;">
+            <label for="predictionField"><strong>Estimated Sales:</strong></label>
+            <input type="text" id="predictionField" value="{{ prediction }}" readonly>
+        </div>
+    </div>
+    <script src="../static/script.js"></script>
+    <script>
+        var prediction = "{{ prediction }}"; // Pass prediction value to JavaScript
+    </script>
+</body>
+</html>
