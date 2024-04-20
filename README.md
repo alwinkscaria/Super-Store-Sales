@@ -5,7 +5,7 @@ This repository contains files related to the analysis and deployment of the Sup
 ## Files Included:
 
 ### Analysis:
-- **super_store_eda.ipynb**: Jupyter Notebook containing the exploratory data analysis (EDA) of the Super Store Sales dataset.
+- **Big Data Visualization Project.ipynb**: Jupyter Notebook containing the exploratory data analysis (EDA) of the Super Store Sales dataset.
 
 ### Dashboard:
 - **super_store_powerbi.pbix**: Power BI file containing the interactive dashboard for visualizing the Super Store Sales data.
