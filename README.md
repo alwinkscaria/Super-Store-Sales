@@ -20,7 +20,7 @@ This repository contains files related to the analysis and deployment of the Sup
 - **static/styles.css**: Cascading Style Sheets (CSS) file containing styles for the web application.
 - **templates/index.html**: HTML template for the home page of the web application.
 
-### Models:
+### Random_forest_using grid search Models:
 - **best_rf_regressor_model.pkl**: Pickle file containing the trained Random Forest regressor model for sales prediction.
 
 ### Others:
