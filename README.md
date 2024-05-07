@@ -16,9 +16,9 @@ This repository contains files related to the analysis and deployment of the Sup
 
 ### Deployment:
 - **app.py**: Python script for deploying the Super Store Sales web application.
-- **static/script.js**: JavaScript file containing scripts for the web application.
-- **static/styles.css**: Cascading Style Sheets (CSS) file containing styles for the web application.
-- **templates/index.html**: HTML template for the home page of the web application.
+- **static/script.js** : JavaScript file containing scripts for the web application.
+- **static/styles.css** : Cascading Style Sheets (CSS) file containing styles for the web application.
+- **templates/index.html** : HTML template for the home page of the web application.
 
 ### Random_forest_using grid search Models:
 - **best_rf_regressor_model.pkl**: Pickle file containing the trained Random Forest regressor model for sales prediction.
